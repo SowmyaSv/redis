@@ -1,6 +1,6 @@
 language: generic
 services: docker
-sudo: required
+sudo: enabled
 script:
   - touch .gitignore
   - >
