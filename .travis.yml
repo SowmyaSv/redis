@@ -1,5 +1,8 @@
 language: generic
 services: docker
+sudo: required
+dist: trusty
+group: deprecated-2017Q4
 script:
   - touch .gitignore
   - >
